@@ -191,7 +191,7 @@ const Film = () => {
             <div className="flex flex-col">
               <label htmlFor="tahunRilis">Tahun Rilis</label>
               <input
-                type="text"
+                type="number"
                 id="tahunRilis"
                 name="tahunRilis"
                 value={addFilm.tahunRilis}
